@@ -1,36 +1,21 @@
 <h1 align="center">Hi, I'm wudiqiegaoleng63 👋</h1>
 
-<p align="center">
-  AI Agent Developer · Backend Developer · Python · Go · TypeScript
-</p>
+<p align="center">AI Agent & Backend Developer · Python · Go · TypeScript</p>
 
-<p align="center">
-  English · <a href="README.zh-CN.md">简体中文</a>
-</p>
+<p align="center"><a href="README.zh-CN.md">简体中文</a></p>
 
----
+I build practical AI Agent and backend systems.
 
-## 👨‍💻 About Me
+### Focus
 
-I build backend systems and practical AI Agent / LLM applications.
+- AI Agents, LLM workflows, RAG, and tool calling
+- Backend services with Python and Go
 
-## 🚀 Focus
+### Stack
 
-- 🤖 AI Agents and LLM workflows
-- 🧩 RAG, tool calling, and automation
-- ⚙️ Backend services with Python and Go
-- 🐳 Docker, Linux, and CI
+`Python` · `Go` · `TypeScript` · `SQL` · `Docker` · `Linux`
 
-## 🧰 Tech Stack
+### Selected work
 
-Python · Go · TypeScript · JavaScript · SQL  
-AI Agents · RAG · REST APIs · Docker · Linux · GitHub Actions
-
-## 📌 Projects
-
-- [AIOps_Agent](https://github.com/wudiqiegaoleng63/AIOps_Agent) — AI Agent for operations and diagnostics
+- [AIOps_Agent](https://github.com/wudiqiegaoleng63/AIOps_Agent) — AI-powered operations and diagnostics
 - [Develop-a-WeChat-like-app](https://github.com/wudiqiegaoleng63/Develop-a-WeChat-like-app) — chat and social app practice
-
----
-
-<p align="center">Keep building, keep learning. 🚀</p>
