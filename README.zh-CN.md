@@ -6,6 +6,15 @@
 
 我专注于实用型 AI Agent 和后端系统开发。
 
+<p align="center">
+  <a href="https://github.com/wudiqiegaoleng63">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wudiqiegaoleng63&amp;theme=github_dark">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wudiqiegaoleng63&amp;theme=github" alt="GitHub 统计数据">
+    </picture>
+  </a>
+</p>
+
 ### 方向
 
 - AI Agent、LLM 工作流、RAG 与工具调用
