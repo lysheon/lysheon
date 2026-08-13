@@ -6,15 +6,6 @@
 
 I build practical AI Agent and backend systems.
 
-<p align="center">
-  <a href="https://github.com/wudiqiegaoleng63">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wudiqiegaoleng63&amp;theme=github_dark">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wudiqiegaoleng63&amp;theme=github" alt="GitHub statistics">
-    </picture>
-  </a>
-</p>
-
 ### Focus
 
 - AI Agents, LLM workflows, RAG, and tool calling
@@ -28,3 +19,9 @@ I build practical AI Agent and backend systems.
 
 - [AIOps_Agent](https://github.com/wudiqiegaoleng63/AIOps_Agent) — AI-powered operations and diagnostics
 - [Develop-a-WeChat-like-app](https://github.com/wudiqiegaoleng63/Develop-a-WeChat-like-app) — chat and social app practice
+
+<p align="center">
+  <a href="https://github.com/wudiqiegaoleng63">
+    <img src="https://github-stats-extended.vercel.app/api?username=wudiqiegaoleng63&amp;theme=tokyonight&amp;custom_title=GitHub%20Stats&amp;hide_rank=true&amp;include_all_commits=true&amp;hide=issues,contribs" alt="GitHub Stats">
+  </a>
+</p>
