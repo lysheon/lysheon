@@ -22,6 +22,6 @@ I build practical AI Agent and backend systems.
 
 <p align="center">
   <a href="https://github.com/wudiqiegaoleng63">
-    <img src="https://github-stats-extended.vercel.app/api?username=wudiqiegaoleng63&amp;theme=tokyonight&amp;custom_title=GitHub%20Stats&amp;hide_rank=true&amp;include_all_commits=true&amp;hide=issues,contribs&amp;card_width=480" alt="GitHub Stats">
+    <img src="https://github-stats-extended.vercel.app/api?username=wudiqiegaoleng63&amp;theme=tokyonight&amp;custom_title=GitHub%20Stats&amp;hide_rank=true&amp;include_all_commits=true&amp;hide=issues,contribs&amp;card_width=760" alt="GitHub Stats">
   </a>
 </p>
