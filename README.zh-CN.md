@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="https://github.com/lysheon">
-    <img src="https://github-stats-extended.vercel.app/api?username=lysheon&amp;theme=tokyonight&amp;custom_title=GitHub%20Stats&amp;hide_rank=true&amp;include_all_commits=true&amp;hide=issues,contribs&amp;card_width=760" alt="GitHub 统计数据">
+    <img src="https://github-stats-extended.vercel.app/api?username=lysheon&amp;hide_title=true&amp;hide_rank=true&amp;include_all_commits=true&amp;hide=issues,contribs&amp;show_icons=false&amp;bg_color=ffffff&amp;text_color=000000&amp;border_color=000000&amp;card_width=360&amp;disable_animations=true" alt="GitHub 统计数据">
   </a>
 </p>
 
