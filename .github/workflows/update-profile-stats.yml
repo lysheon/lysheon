@@ -1,0 +1,64 @@
+name: Update profile stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-profile-stats.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate six-cell stats card
+        run: |
+          python3 - <<'PYTHON'
+          import html
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          
+          url = 'https://github-stats-extended.vercel.app/api?username=lysheon&hide_rank=true&include_all_commits=true&hide=issues,contribs&disable_animations=true'
+          with urllib.request.urlopen(url, timeout=30) as response:
+              root = ET.fromstring(response.read())
+          stats = {node.get('data-testid'): node.text.strip() for node in root.iter()
+                   if node.get('data-testid') in ('stars', 'commits', 'prs') and node.text}
+          if set(stats) != {'stars', 'commits', 'prs'}:
+              raise RuntimeError('Incomplete statistics; keep the existing card.')
+          for value in stats.values():
+              if not value.replace(',', '').replace('.', '').replace('k', '').replace('M', '').isdigit():
+                  raise ValueError('Unexpected statistics value')
+          parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">',
+                   '<title id="title">GitHub statistics</title>',
+                   '<desc id="desc">Star: {stars}; Commit: {commits}; PR: {prs}</desc>'.format(**stats),
+                   '<rect x="0.5" y="0.5" width="759" height="179" rx="6" fill="#ffffff" stroke="#d1d9e0"/>',
+                   '<path d="M253.33 0.5V179.5 M506.67 0.5V179.5 M0.5 90H759.5" fill="none" stroke="#d1d9e0"/>',
+                   '<g fill="#24292f" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">']
+          for x, label, key in [(126.67, 'Star', 'stars'), (380, 'Commit', 'commits'), (633.33, 'PR', 'prs')]:
+              parts.append(f'<text x="{x}" y="53" font-size="22">{label}</text>')
+              parts.append(f'<text x="{x}" y="146" font-size="34" font-weight="600">{html.escape(stats[key])}</text>')
+          parts.extend(['</g>', '</svg>'])
+          Path('stats.svg').write_text('\n'.join(parts) + '\n', encoding='utf-8')
+          PYTHON
+      - name: Save updated stats
+        run: |
+          git add stats.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update profile statistics'
+          git push
