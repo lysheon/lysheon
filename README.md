@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm wudiqiegaoleng63 👋</h1>
+<h1 align="center">Hi, I'm lysheon 👋</h1>
 
 <p align="center">AI Agent & Backend Developer · Python · Go · TypeScript</p>
 
@@ -17,11 +17,12 @@ I build practical AI Agent and backend systems.
 
 ### Selected work
 
-- [AIOps_Agent](https://github.com/wudiqiegaoleng63/AIOps_Agent) — AI-powered operations and diagnostics
-- [Develop-a-WeChat-like-app](https://github.com/wudiqiegaoleng63/Develop-a-WeChat-like-app) — chat and social app practice
+- [AIOps_Agent](https://github.com/lysheon/AIOps_Agent) — AI-powered operations and diagnostics
+- [Develop-a-WeChat-like-app](https://github.com/lysheon/Develop-a-WeChat-like-app) — chat and social app practice
 
 <p align="center">
-  <a href="https://github.com/wudiqiegaoleng63">
-    <img src="https://github-stats-extended.vercel.app/api?username=wudiqiegaoleng63&amp;theme=tokyonight&amp;custom_title=GitHub%20Stats&amp;hide_rank=true&amp;include_all_commits=true&amp;hide=issues,contribs&amp;card_width=760" alt="GitHub Stats">
+  <a href="https://github.com/lysheon">
+    <img src="https://github-stats-extended.vercel.app/api?username=lysheon&amp;theme=tokyonight&amp;custom_title=GitHub%20Stats&amp;hide_rank=true&amp;include_all_commits=true&amp;hide=issues,contribs&amp;card_width=760" alt="GitHub Stats">
   </a>
 </p>
+
