@@ -1,15 +1,10 @@
 <h1 align="center">你好，我是 lysheon 👋</h1>
 
-<p align="center">AI Agent 与后端开发者 · Python · Go · TypeScript</p>
+<p align="center">AI Agent · 后端开发 · Python & Go</p>
 
 <p align="center"><a href="README.md">English</a></p>
 
-我专注于实用型 AI Agent 和后端系统开发。
-
-### 方向
-
-- AI Agent、LLM 工作流、RAG 与工具调用
-- Python 与 Go 后端服务
+我用 Python 和 Go 开发 AI Agent 与后端服务，关注 RAG、工具调用和大模型工作流，让模型能够调用工具、融入实际应用。
 
 ### 技术栈
 
@@ -17,12 +12,12 @@
 
 ### 精选项目
 
-- [AIOps_Agent](https://github.com/lysheon/AIOps_Agent) — 面向运维与诊断的 AI Agent
-- [Develop-a-WeChat-like-app](https://github.com/lysheon/Develop-a-WeChat-like-app) — 聊天与社交应用开发练习
+- [AIOps_Agent](https://github.com/lysheon/AIOps_Agent) — 面向运维与诊断的 AI 助手，结合 RAG 知识库与对话工作流。
+- [minicode-python](https://github.com/lysheon/minicode-python) — 用 Python 实现的终端编程 Agent。
+- [Develop-a-WeChat-like-app](https://github.com/lysheon/Develop-a-WeChat-like-app) — 基于 Go、React 和 TypeScript 的全栈聊天应用，集成 Eino AI 助手。
 
 <p align="center">
   <a href="https://github.com/lysheon">
-    <img src="https://github-stats-extended.vercel.app/api?username=lysheon&amp;hide_title=true&amp;hide_rank=true&amp;include_all_commits=true&amp;hide=issues,contribs&amp;show_icons=false&amp;bg_color=ffffff&amp;text_color=000000&amp;border_color=000000&amp;card_width=360&amp;disable_animations=true" alt="GitHub 统计数据">
+    <img src="https://github-stats-extended.vercel.app/api?username=lysheon&amp;hide_title=true&amp;hide_rank=true&amp;include_all_commits=true&amp;hide=issues,contribs&amp;show_icons=false&amp;bg_color=ffffff&amp;text_color=24292f&amp;border_color=e4e2e2&amp;card_width=360&amp;disable_animations=true" alt="GitHub 统计：Star、Commit 和 PR 数量">
   </a>
 </p>
-
