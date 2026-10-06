@@ -18,6 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/lysheon">
-    <img src="https://github-stats-extended.vercel.app/api?username=lysheon&amp;hide_title=true&amp;hide_rank=true&amp;include_all_commits=true&amp;hide=issues,contribs&amp;show_icons=false&amp;bg_color=ffffff&amp;text_color=24292f&amp;border_color=e4e2e2&amp;card_width=360&amp;disable_animations=true" alt="GitHub 统计：Star、Commit 和 PR 数量">
+    <img src="stats.svg" width="760" alt="Star、Commit、PR">
   </a>
 </p>
+
