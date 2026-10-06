@@ -18,7 +18,8 @@ I build AI agents and backend services with Python and Go. My work focuses on RA
 
 <p align="center">
   <a href="https://github.com/lysheon">
-    <img src="stats.svg" width="760" alt="Star, Commit, PR">
+    <img src="stats.svg" width="380" alt="Star, Commit, PR">
   </a>
 </p>
+
 
